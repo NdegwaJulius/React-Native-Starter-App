@@ -33,6 +33,11 @@ const HomeScreen = ({navigation}) => {
    color = "black"
     onPress ={() => navigation.navigate('Square')}
    />
+    <Button
+   title = "Go to  Text Input Screen Demo" 
+   
+    onPress ={() => navigation.navigate('Text')}
+   />
    </View>
    );
 };
