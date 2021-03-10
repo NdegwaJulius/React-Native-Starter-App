@@ -39,8 +39,8 @@ const HomeScreen = ({navigation}) => {
     onPress ={() => navigation.navigate('Text')}
    />
    <Button
-   title = "Go to  Text Input Screen Demo" 
-   
+   title = "Go to   Layouts  Screen Demo" 
+   color='maroon'
     onPress ={() => navigation.navigate('Box')}
    />
    </View>
