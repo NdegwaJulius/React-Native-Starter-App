@@ -38,6 +38,11 @@ const HomeScreen = ({navigation}) => {
    
     onPress ={() => navigation.navigate('Text')}
    />
+   <Button
+   title = "Go to  Text Input Screen Demo" 
+   
+    onPress ={() => navigation.navigate('Box')}
+   />
    </View>
    );
 };
