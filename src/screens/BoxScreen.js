@@ -14,24 +14,21 @@ const styles = StyleSheet.create({
     viewStyle: {
         borderWidth:3,
         borderColor:'black',
-        height:200,
-        alignItems:'center'
-        
-        
-        
-       
+        height:200
+
     },
     textOneStyle:{
         borderWidth:3,
-        borderColor:'red',
-        
-        
-        
-    },
+        borderColor:'red'
+       },
     textTwoStyle:{
         borderWidth:3,
         borderColor:'red',
-        alignSelf: 'stretch',
+       fontSize:30,
+      ...StyleSheet.absoluteFillObject
+    
+      
+       
         
         
         
